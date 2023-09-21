@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+}
+
+header, footer {
+    background-color: #42df4f;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+    position: relative;
+}
+
+section {
+    height: 500px;
+    background-color: #f78962;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #204956;
+}
+/**/
+#tarjeta {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedor-imagen {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#contenedor-imagen img {
+    max-width: 100%;
+    height: auto;
+    width: 700px; 
+    height: 450px; 
+    
+}
+
+#texto {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    
+}
+
+#nombre {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#puesto {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#editar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #42df4f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#edicion {
+    width: 100%;
+    height: 100%;
+    background-color: #00000098;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.entrada {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#guardar {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #42df4f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
